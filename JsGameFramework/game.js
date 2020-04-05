@@ -163,12 +163,12 @@ function iterateApp() {
 // Funktion som kan utföra alla förflyttningar i spelet.
 //==========================================================================
 function update() {
-	
+      
+
 	//******************* BEGIN Starship game ******************************
 	NotP1.update();
 	NotP2.update();
 	//******************* END Starship game ********************************
-
 	//######################################################################
 	//# OBS! Skriv din egen kod för uppdateringar här. Detta kan göras direkt
 	//#      eller genom anrop till funktioner eller metoder i objekt.
@@ -177,7 +177,6 @@ function update() {
 
 	return 0;
 }
-
 //==========================================================================
 // Ritar (renderar) bakgrund och alla objekt som ska visas i spelet
 // Param ctx: kontexten för och referensen till den canvas som ska renderas

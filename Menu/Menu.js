@@ -1,6 +1,8 @@
-//Start knappen
-document.getElementById("demo").onclick = function() {myFunction()};
+var myMusic= document.getElementById("music");
+function play() {
+myMusic.play();
+}
 
-function myFunction() {
-  document.getElementById("demo").innerHTML = "YOU CLICKED ME!";
+function pause() {
+myMusic.pause();
 }
